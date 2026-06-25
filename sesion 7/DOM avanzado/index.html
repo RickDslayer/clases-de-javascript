@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1 id="titulo">JavaScript: Labs 01 - Sesion 7</h1>
+            <button id="btnAppend">Agregar al final - append()</button>
+            <button id="btnPrepend">Agregar al inicio - prepend()</button>
+            <button id="btnBefore">Agregar antes del título - before()</button>
+            <button id="btnAfter">Agregar después del título - after()</button>
+            <br>
+            <button id="btnRemove">Eliminar primer producto - remove()</button>
+            <button id="btnReplaceChildren">Reemplazar contenido interno - replaceChildren()</button>
+            <button id="btnReplaceWith">Reemplazar primera tarjeta - replaceWith()</button>
+        </header>
+        <section>
+            <h2>Lista de Productos</h2>
+            <div id="contenedor-productos">
+                <article class="producto">Producto inicial: Computador</article>
+            </div>
+        </section>
+        <button id="btnContarHijos">Ver hijos del contenedor - children</button>
+        <button id="btnHermanoAnterior">Ver hermano anterior</button>
+        <button id="btnHermanoSiguiente">Ver hermano siguiente</button>
+
+        <section id="contenedor-productos1">
+            <article class="producto">
+                Producto inicial: Computador
+                <button class="btn-eliminar-interno">Eliminar desde botón interno</button>
+            </article>
+
+            <article class="producto">
+                Producto inicial: Teclado
+                <button class="btn-eliminar-interno">Eliminar desde botón interno</button>
+            </article>
+
+            <article class="producto">
+                Producto inicial: Mouse
+                <button class="btn-eliminar-interno">Eliminar desde botón interno</button>
+            </article>
+        </section>
+    </main>
+    <script src="/js/main.js"></script>
+</body>
+
+</html>

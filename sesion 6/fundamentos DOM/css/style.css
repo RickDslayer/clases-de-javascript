@@ -1,0 +1,38 @@
+.contenedor {
+    border-radius: 20px;
+    border: 1px solid red;
+    padding: 20px;
+    background-color: rgb(0, 29, 158);
+}
+body{
+    background-color: black;
+}
+button {
+    background-color: aquamarine;
+    border: 1px solid aquamarine;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 6px;
+}
+
+.resultado-texto {
+    background-color: #e0f2fe;
+    border-left: 5px solid #0284c7;
+    color: #0f172a;
+}
+
+.resultado-html {
+    background-color: #dcfce7;
+    border-left: 5px solid #16a34a;
+    color: #14532d;
+}
+
+.resultado-limpio {
+    background-color: #f8fafc;
+    border-left: 5px solid #94a3b8;
+    color: #475569;
+}
+
+.oculto {
+    display: none;
+}

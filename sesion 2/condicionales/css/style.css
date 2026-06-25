@@ -1,0 +1,12 @@
+section{
+    background-color: rgb(30, 7, 179);
+    color: beige;
+    border-radius: 20px;
+    padding: 20px;
+}
+button{
+    background-color: rgb(175, 21, 21);
+    color: beige;
+    border-radius: 20px;
+    padding: 10px;
+}

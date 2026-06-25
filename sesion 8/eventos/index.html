@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Eventos</title>
+</head>
+
+<body>
+    <main>
+        <button onClick="changeBackgroundColor()">Cambiar Color de Fondo</button>
+        <section>
+            <button onclick="saludarDesdeHTML()">
+                Saludar con HTML
+            </button>
+            <p id="mensajeHTML"></p>
+            <button id="btnPropiedad">
+                Saludar con onclick
+            </button>
+            <p id="mensajePropiedad"></p>
+            <button id="btnListener">
+                Saludar con addEventListener
+            </button>
+            <p id="mensajeListener"></p>
+        </section>
+        <section>
+            <form id="formulario">
+                <input type="text" name="nombre" placeholder="nombre">
+                <input type="email"name="email" placeholder="email">
+                <button type="submit">enviar</button>
+            </form>
+            <div>
+                <h2>usuarios registrado</h2>
+                <ul id="listaUsuarios"></ul>
+            </div>
+        </section>
+    </main>
+    <script src="/js/main.js"></script>
+</body>
+
+</html>
