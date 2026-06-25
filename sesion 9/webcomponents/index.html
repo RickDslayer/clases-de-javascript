@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/sesion 9/webcomponents/css/style.css">
+</head>
+<body>
+    <main>
+        <header>
+            <h2>webcomponents</h2>
+        </header>
+        <section>
+            <tarjeta-perfil></tarjeta-perfil>
+        </section>
+        <section>
+            <h2>Ejemplo de Shadow DOM</h2>
+            <p>Este párrafo está fuera del componente.</p>
+            <shadow-tarjeta></shadow-tarjeta>
+          </section>
+          <template id="template-producto">
+            <article class="card">
+              <h3 class="nombre"></h3>
+              <p class="precio"></p>
+            </article>
+          </template>
+          <section id="contenedor-productos">
+            <h2>hola</h2>
+          </section>
+    </main>
+    <script src="/sesion 9/webcomponents/js/main.js"></script>
+</body>
+</html>

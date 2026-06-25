@@ -1,0 +1,13 @@
+p {
+    /* Este estilo solo afecta a los <p> dentro de este Shadow DOM */
+    color: rgb(94, 255, 0);
+    font-weight: bold;
+}
+
+.card {
+    width: 30%;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #e0f2fe;
+    border: 2px solid #c702bd;
+}
