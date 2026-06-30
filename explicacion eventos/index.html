@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos en JavaScript</title>
+    <link rel="stylesheet" href="/explicacion eventos/css/style.css">
+</head>
+
+<body>
+    <main>
+        <h1>Demostración de Eventos en JavaScript</h1>
+
+        <!-- CLICK -->
+        <section>
+            <h2>1. Evento Click</h2>
+
+            <button id="btnClick">
+                Haz Click
+            </button>
+
+            <p id="mensajeClick"></p>
+        </section>
+
+        <!-- DBLCLICK -->
+        <section>
+
+            <h2>2. Evento Doble Click</h2>
+
+            <button id="btnDoble">
+                Haz Doble Click
+            </button>
+
+            <p id="mensajeDoble"></p>
+
+        </section>
+
+        <!-- MOUSE -->
+        <section>
+
+            <h2>3. Mouseover y Mouseout</h2>
+
+            <div id="caja">
+                Pasa el mouse aquí
+            </div>
+
+        </section>
+
+        <!-- INPUT -->
+        <section>
+
+            <h2>4. Evento Input</h2>
+
+            <input type="text" id="texto" placeholder="Escribe algo...">
+
+            <p id="resultado"></p>
+
+        </section>
+
+        <!-- KEYDOWN -->
+        <section>
+
+            <h2>5. Evento Keydown</h2>
+
+            <p>Presiona cualquier tecla del teclado:</p>
+
+            <h3 id="tecla">Ninguna</h3>
+
+        </section>
+
+        <!-- SUBMIT -->
+        <section>
+
+            <h2>6. Evento Submit</h2>
+
+            <form id="formulario">
+
+                <input type="text" placeholder="Nombre" required>
+
+                <button>
+                    Enviar
+                </button>
+
+            </form>
+
+            <p id="respuestaFormulario"></p>
+
+        </section>
+
+        <!-- LOG -->
+        <section>
+
+            <h2>Registro de Eventos</h2>
+
+            <div id="log"></div>
+
+        </section>
+    </main>
+    <script src="/explicacion eventos/js/main.js"></script>
+</body>
+</html>
